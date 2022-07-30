@@ -64,6 +64,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 .block1 {
   height: 100vh;
@@ -102,7 +103,17 @@ body {
   border-radius: 10px;
   background-color: #000;
   color: #fff;
-
+}
+.learn:hover {
+  background-color: hsl(0, 0%, 41%);
+  border: hsl(0, 0%, 41%);
+}
+.block2 {
+  height: 100vh;
+  padding: 50px;
+}
+.block2 img {
+  height: 100%;
 }
 .attribution {
   font-size: 11px;
