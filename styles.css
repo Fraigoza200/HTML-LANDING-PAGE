@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-color: hsl(0, 0%, 98%);
 }
 #header {
@@ -21,71 +21,88 @@ body{
   display: flex;
   justify-content: center;
 }
-.logo img{
+.logo img {
   height: 100;
 }
-.menu{
+.menu {
   margin-right: auto;
- 
 }
 .menu li {
   list-style: none;
   padding: 0 20px;
   display: inline-block;
   cursor: pointer;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 500;
   color: hsl(0, 0%, 41%);
 }
 
-.log{
+.log {
   display: flex;
   align-items: center;
 }
-.login{
+.login {
   padding: 0 55px;
   cursor: pointer;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 500;
   color: hsl(0, 0%, 41%);
 }
-.Register{
+.Register {
   padding: 10px 25px;
   border: 1px solid black;
   border-radius: 10px;
   cursor: pointer;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 500;
   color: hsl(0, 0%, 41%);
 }
-.Register:hover{
+.Register:hover {
   background-color: aquamarine;
 }
-.hero{
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.block1{
+.block1 {
   height: 100vh;
-  border: 1px solid black;
+  width: 40%;
   padding: 30px 30px;
 }
-.remote-work{
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-size: 120px;
-  width: 70%;
-  margin: auto;
-  padding: 80px 0;
+.caption {
+  height: 50vh;
+  padding-top: 100px;
 }
-.para{
-  width: 40%;
-  font-family: "Lotus", sans-serif;
+.remote-work {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  margin: auto;
+  width: 67%;
+  text-align: left;
+  padding-bottom: 60px;
+}
+.para {
+  width: 50%;
+  font-family: 'Lotus', sans-serif;
   font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 40px;
   color: hsl(0, 0%, 41%);
-  line-height: 30px;
-  font-size: 25px;
+  line-height: 25px;
+  margin-left: 145px;
+  text-align: left;
+}
+.learn {
+  font-family: 'Lato' sans-serif;
+  font-weight: 500;
+  margin-left: 145px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+
 }
 .attribution {
   font-size: 11px;
