@@ -1,5 +1,8 @@
 # Frontend Mentor - Intro section with dropdown navigation
 
+![Front-end-mentor-landing-page](https://user-images.githubusercontent.com/52722189/183314785-e0256141-07af-4e5c-8022-bad4d9553521.png)
+
+
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
